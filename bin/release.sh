@@ -7,7 +7,7 @@ RELEASE="${2}"
 SERVER="127.0.0.1"
 
 if [[ "testing" == "${RELEASE}" ]]; then
-  SERVER="192.168.4.107"
+  SERVER="192.168.4.105"
 fi
 
 if [[ "production" == "${RELEASE}" ]]; then
